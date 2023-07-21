@@ -24,9 +24,18 @@ const Sidebar = () => {
 	const [selected, setSelected] = useState('Dashboard');
 
 	return (
-		<div>
+		<Box
+		sx={{
+			'& .pro-sidebar-inner': {
+				background: `${colors.primary[400]} !important`
+			},
+			'& .pro-icon-wrapper': {
+				backgroundColor: 'transparent !important'
+			}
+		}}
+		>
 			
-		</div>
+		</Box>
 	)
 }
 

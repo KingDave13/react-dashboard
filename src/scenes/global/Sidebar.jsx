@@ -225,6 +225,6 @@ const Sidebar = () => {
 	     	</ProSidebar>
 		</Box>
 	)
-}
+};
 
 export default Sidebar;

@@ -50,6 +50,7 @@ const Team = () => {
 	        	<Box
 		            width='60%'
 		            m='0 auto'
+		            mr='130px'
 		            p='5px'
 		            display='flex'
 		            justifyContent='center'

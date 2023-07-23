@@ -37,7 +37,7 @@ const Invoices = () => {
         <Typography color={colors.greenAccent[500]}>
           ${params.row.cost}
         </Typography>
-      ),
+      )
     },
 
     {

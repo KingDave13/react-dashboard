@@ -30,26 +30,26 @@ const Form = () => {
 	        }) => (
 	        	<form onSubmit={handleSubmit}>
 		            <Box
-		              display="grid"
-		              gap="30px"
-		              gridTemplateColumns="repeat(4, minmax(0, 1fr))"
-		              sx={{
-		                "& > div": { gridColumn: isNonMobile ? undefined : "span 4" },
-		              }}
+		            display='grid'
+		            gap='30px'
+		            gridTemplateColumns='repeat(4, minmax(0, 1fr))'
+		            sx={{
+		            	'& > div': { gridColumn: isNonMobile ? undefined : 'span 4' }
+		            }}
 		            >
-	              <TextField
-	                fullWidth
-	                variant="filled"
-	                type="text"
-	                label="First Name"
-	                onBlur={handleBlur}
-	                onChange={handleChange}
-	                value={values.firstName}
-	                name="firstName"
-	                error={!!touched.firstName && !!errors.firstName}
-	                helperText={touched.firstName && errors.firstName}
-	                sx={{ gridColumn: "span 2" }}
-	              />
+	            		<TextField
+			                fullWidth
+			                variant="filled"
+			                type="text"
+			                label="First Name"
+			                onBlur={handleBlur}
+			                onChange={handleChange}
+			                value={values.firstName}
+			                name="firstName"
+			                error={!!touched.firstName && !!errors.firstName}
+			                helperText={touched.firstName && errors.firstName}
+			                sx={{ gridColumn: "span 2" }}
+	              		/>
 	              <TextField
 	                fullWidth
 	                variant="filled"

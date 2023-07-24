@@ -47,26 +47,26 @@ const Calendar = () => {
   };
 
   return (
-    <Box m="20px">
-      <Header title="Calendar" subtitle="Full Calendar Interactive Page" />
+    <Box m='20px'>
+      <Header title='Calendar' subtitle='Full Calendar Interactive Page' />
 
-      <Box display="flex" justifyContent="space-between">
+      <Box display='flex' justifyContent='space-between'>
         {/* CALENDAR SIDEBAR */}
         <Box
-          flex="1 1 20%"
+          flex='1 1 20%'
           backgroundColor={colors.primary[400]}
-          p="15px"
-          borderRadius="4px"
+          p='15px'
+          borderRadius='4px'
         >
-          <Typography variant="h5">Events</Typography>
+          <Typography variant='h5'>Events</Typography>
           <List>
             {currentEvents.map((event) => (
               <ListItem
                 key={event.id}
                 sx={{
                   backgroundColor: colors.greenAccent[500],
-                  margin: "10px 0",
-                  borderRadius: "2px",
+                  margin: '10px 0',
+                  borderRadius: '2px'
                 }}
               >
                 <ListItemText
@@ -74,9 +74,9 @@ const Calendar = () => {
                   secondary={
                     <Typography>
                       {formatDate(event.start, {
-                        year: "numeric",
-                        month: "short",
-                        day: "numeric",
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
                       })}
                     </Typography>
                   }

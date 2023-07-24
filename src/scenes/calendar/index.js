@@ -52,14 +52,13 @@ const CalendarComponent = () => {
       eventsSet: (events) => setCurrentEvents(events),
     });
 
-    // Render the calendar
     calendar.render();
 
     // Clean up FullCalendar instance when the component unmounts
     return () => {
       calendar.destroy();
     };
-  }, []); // Empty dependency array to ensure the effect runs only once
+  }, []);
 
 
   const handleDateClick = (selected) => {

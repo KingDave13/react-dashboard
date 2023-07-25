@@ -55,9 +55,10 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
+          <Typography color={colors.greenAccent[500]} variant='h5'>
             Some Random Question
           </Typography>
         </AccordionSummary>
@@ -68,9 +69,10 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
+          <Typography color={colors.greenAccent[500]} variant='h5'>
             The Final Question
           </Typography>
         </AccordionSummary>

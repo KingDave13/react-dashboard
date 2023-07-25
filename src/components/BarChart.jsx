@@ -92,26 +92,26 @@ const BarChart = ({ isDashboard = false }) => {
       labelSkipWidth={12}
       labelSkipHeight={12}
       labelTextColor={{
-        from: "color",
-        modifiers: [["darker", 1.6]],
+        from: 'color',
+        modifiers: [['darker', 1.6]],
       }}
       legends={[
         {
-          dataFrom: "keys",
-          anchor: "bottom-right",
-          direction: "column",
+          dataFrom: 'keys',
+          anchor: 'bottom-right',
+          direction: 'column',
           justify: false,
           translateX: 120,
           translateY: 0,
           itemsSpacing: 2,
           itemWidth: 100,
           itemHeight: 20,
-          itemDirection: "left-to-right",
+          itemDirection: 'left-to-right',
           itemOpacity: 0.85,
           symbolSize: 20,
           effects: [
             {
-              on: "hover",
+              on: 'hover',
               style: {
                 itemOpacity: 1,
               },
@@ -119,7 +119,7 @@ const BarChart = ({ isDashboard = false }) => {
           ],
         },
       ]}
-      role="application"
+      role='application'
       barAriaLabel={function (e) {
         return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
       }}

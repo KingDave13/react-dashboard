@@ -48,27 +48,27 @@ const BarChart = ({ isDashboard = false }) => {
       colors={{ scheme: 'nivo' }}
       defs={[
         {
-          id: "dots",
-          type: "patternDots",
-          background: "inherit",
-          color: "#38bcb2",
+          id: 'dots',
+          type: 'patternDots',
+          background: 'inherit',
+          color: '#38bcb2',
           size: 4,
           padding: 1,
           stagger: true,
         },
         {
-          id: "lines",
-          type: "patternLines",
-          background: "inherit",
-          color: "#eed312",
+          id: 'lines',
+          type: 'patternLines',
+          background: 'inherit',
+          color: '#eed312',
           rotation: -45,
           lineWidth: 6,
           spacing: 10,
         },
       ]}
       borderColor={{
-        from: "color",
-        modifiers: [["darker", "1.6"]],
+        from: 'color',
+        modifiers: [['darker', '1.6']],
       }}
       axisTop={null}
       axisRight={null}
@@ -76,16 +76,16 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "country", // changed
-        legendPosition: "middle",
+        legend: isDashboard ? undefined : 'country', // changed
+        legendPosition: 'middle',
         legendOffset: 32,
       }}
       axisLeft={{
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "food", // changed
-        legendPosition: "middle",
+        legend: isDashboard ? undefined : 'food', // changed
+        legendPosition: 'middle',
         legendOffset: -40,
       }}
       enableLabel={false}

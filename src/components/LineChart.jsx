@@ -53,18 +53,18 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         stacked: true,
         reverse: false,
       }}
-      yFormat=" >-.2f"
-      curve="catmullRom"
+      yFormat=' >-.2f'
+      curve='catmullRom'
       axisTop={null}
       axisRight={null}
       axisBottom={{
-        orient: "bottom",
+        orient: 'bottom',
         tickSize: 0,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "transportation", // added
+        legend: isDashboard ? undefined : 'transportation', // added
         legendOffset: 36,
-        legendPosition: "middle",
+        legendPosition: 'middle',
       }}
       axisLeft={{
         orient: "left",

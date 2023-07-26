@@ -98,10 +98,10 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
           itemOpacity: 0.75,
           symbolSize: 12,
           symbolShape: 'circle',
-          symbolBorderColor: "rgba(0, 0, 0, .5)",
+          symbolBorderColor: 'rgba(0, 0, 0, .5)',
           effects: [
             {
-              on: "hover",
+              on: 'hover',
               style: {
                 itemBackground: "rgba(0, 0, 0, .03)",
                 itemOpacity: 1,

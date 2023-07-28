@@ -53,15 +53,15 @@ const GeographyChart = ({ isDashboard = false }) => {
         !isDashboard
           ? [
               {
-                anchor: "bottom-left",
-                direction: "column",
+                anchor: 'bottom-left',
+                direction: 'column',
                 justify: true,
                 translateX: 20,
                 translateY: -100,
                 itemsSpacing: 0,
                 itemWidth: 94,
                 itemHeight: 18,
-                itemDirection: "left-to-right",
+                itemDirection: 'left-to-right',
                 itemTextColor: colors.grey[100],
                 itemOpacity: 0.85,
                 symbolSize: 18,

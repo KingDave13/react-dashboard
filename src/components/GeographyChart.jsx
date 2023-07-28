@@ -67,9 +67,9 @@ const GeographyChart = ({ isDashboard = false }) => {
                 symbolSize: 18,
                 effects: [
                   {
-                    on: "hover",
+                    on: 'hover',
                     style: {
-                      itemTextColor: "#ffffff",
+                      itemTextColor: '#ffffff',
                       itemOpacity: 1,
                     },
                   },

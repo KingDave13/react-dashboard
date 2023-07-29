@@ -45,13 +45,14 @@ const Dashboard = () => {
 
 
       		{/* GRID & CHARTS */}
-      <Box
-        display="grid"
-        gridTemplateColumns="repeat(12, 1fr)"
-        gridAutoRows="140px"
-        gap="20px"
-      >
-        {/* ROW 1 */}
+		    <Box
+	        display='grid'
+	        gridTemplateColumns='repeat(12, 1fr)'
+	        gridAutoRows='140px'
+	        gap='20px'
+		    >
+		    
+        	{/* ROW 1 */}
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}

@@ -51,24 +51,25 @@ const Dashboard = () => {
 	        gridAutoRows='140px'
 	        gap='20px'
 		    >
-		    
+
         	{/* ROW 1 */}
-        <Box
-          gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
-            progress="0.75"
-            increase="+14%"
+        	<Box
+	        gridColumn='span 3'
+	        backgroundColor={colors.primary[400]}
+	        display='flex'
+	        alignItems='center'
+	        justifyContent='center'
+        	>
+
+        	<StatBox
+            title='12,361'
+            subtitle='Emails Sent'
+            progress='0.75'
+            increase='+14%'
             icon={
-              <EmailIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
-              />
+            	<EmailIcon
+                sx={{ color: colors.greenAccent[600], fontSize: '26px' }}
+            />
             }
           />
         </Box>

@@ -61,26 +61,27 @@ const Dashboard = () => {
 	        justifyContent='center'
         	>
 
-        	<StatBox
-            title='12,361'
-            subtitle='Emails Sent'
-            progress='0.75'
-            increase='+14%'
-            icon={
-            	<EmailIcon
-                sx={{ color: colors.greenAccent[600], fontSize: '26px' }}
-            />
-            }
-          />
-        </Box>
-        <Box
-          gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <StatBox
+	        	<StatBox
+	            title='12,361'
+	            subtitle='Emails Sent'
+	            progress='0.75'
+	            increase='+14%'
+	            icon={
+	            	<EmailIcon
+	                sx={{ color: colors.greenAccent[600], fontSize: '26px' }}
+	            	/>
+	            	}
+	          	/>
+        	</Box>
+
+        	<Box
+            gridColumn='span 3'
+            backgroundColor={colors.primary[400]}
+            display='flex'
+            alignItems='center'
+            justifyContent='center'
+        	>
+          	<StatBox
             title="431,225"
             subtitle="Sales Obtained"
             progress="0.50"
@@ -92,6 +93,7 @@ const Dashboard = () => {
             }
           />
         </Box>
+        
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
